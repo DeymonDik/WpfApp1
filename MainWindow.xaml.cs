@@ -46,7 +46,7 @@ namespace WpfApp1
                 }
                 else
                 {
-                    MessageBox.Show("Ошибка (mistake) kog1d3thfhgfjja (wrthrhen) при получеgrrgнии данных");
+                    MessageBox.Show("Ошибка (mistake) kog1d3thfhgfjja ;ih;ih;lih(wrthrhen) при получеgrrgнии данных");
                     return null;
                 }
             }
