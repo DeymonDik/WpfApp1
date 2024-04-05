@@ -47,6 +47,7 @@ namespace WpfApp1
                 else
                 {
                     MessageBox.Show("Ошибка при получении данных");
+                    MessageBox.Show("Ошибка");
                     return null;
                 }
             }
@@ -60,7 +61,7 @@ namespace WpfApp1
         private async void Get_Click(object sender, RoutedEventArgs e)
         {
             listBox1.Items.Clear();
-            Button1.Content = "Добавить";
+            Button1.Content = "добавить";
             string? response = await SentHttpRequest(baseUrl);
             if (response != null)
             {
