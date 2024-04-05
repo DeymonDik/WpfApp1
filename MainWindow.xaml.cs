@@ -62,6 +62,7 @@ namespace WpfApp1
         {
             listBox1.Items.Clear();
             Button1.Content = "добавить";
+            Button1.Content = "добавить";
             string? response = await SentHttpRequest(baseUrl);
             if (response != null)
             {
