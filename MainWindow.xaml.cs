@@ -15,7 +15,7 @@ namespace WpfApp1
         }
 
         private readonly HttpClient client = new();
-        private readonly string baseUrl = "http://localhost:12345/api/people";
+        private readonly string baseUrl = "http://192.168.88.10:12345/api/people";
 
         private async Task<string?> SentHttpRequest(string url, MethodEnum method = MethodEnum.GET, string? jsonMsg = null)
         {
@@ -46,7 +46,8 @@ namespace WpfApp1
                 }
                 else
                 {
-                    MessageBox.Show("Ошибка при получении данных");
+                    MessageBox.Show("Ошибка при получении данных"); 
+                    MessageBox.Show("ОШИБКА!");
                     return null;
                 }
             }
@@ -134,6 +135,11 @@ namespace WpfApp1
                 person.Name = textBox2.Text;
                 listBox1.Items.Refresh();
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Save Our Souls","Call For Help");
         }
     }
 }
