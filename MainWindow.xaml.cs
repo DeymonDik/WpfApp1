@@ -15,7 +15,7 @@ namespace WpfApp1
         }
 
         private readonly HttpClient client = new();
-        private readonly string baseUrl = "http://localhost:12345/api/people";
+        private readonly string baseUrl = "http://192.168.88.10:12345/api/people";
 
         private async Task<string?> SentHttpRequest(string url, MethodEnum method = MethodEnum.GET, string? jsonMsg = null)
         {
