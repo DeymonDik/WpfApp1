@@ -11,7 +11,7 @@
         <Button x:Name="Button1" Content="Добавить" Margin="0,115,53,0" Click="Post_Click" HorizontalAlignment="Right" Width="57" Height="20" VerticalAlignment="Top"/>
         <Button x:Name="Button2" Content="Изменить" Margin="0,140,52,0" Click="Put_Click" HorizontalAlignment="Right" Width="58" Height="20" VerticalAlignment="Top"/>
         <Button x:Name="Button3" Content="Удалить" Margin="0,165,62,0" Click="Delete_Click" Width="48" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
-        <ListBox x:Name="listBox1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,47,123,0" SelectionChanged="listBox1_SelectionChanged" IsSynchronizedWithCurrentItem="False"/>
+        <ListBox x:Name="listBox1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,47,133,0" SelectionChanged="listBox1_SelectionChanged" IsSynchronizedWithCurrentItem="False"/>
         <Label Content="ИД" HorizontalAlignment="Left" Margin="19,16,0,0" VerticalAlignment="Top"/>
         <Label Content="Имя" HorizontalAlignment="Left" Margin="400,16,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="74,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="102" TextChanged="textBox1_TextChanged"/>
