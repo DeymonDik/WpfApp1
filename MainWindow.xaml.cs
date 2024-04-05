@@ -46,7 +46,7 @@ namespace WpfApp1
                 }
                 else
                 {
-                    MessageBox.Show("Ошибка при получении данных");
+                    MessageBox.Show("Ошибка (mistake) при получении данных");
                     return null;
                 }
             }
