@@ -16,6 +16,7 @@
         <Label Content="Имя" HorizontalAlignment="Left" Margin="400,16,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="74,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="102" TextChanged="textBox1_TextChanged"/>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="443,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="196" TextChanged="textBox2_TextChanged"/>
+        <Button Content="SoS" HorizontalAlignment="Left" Margin="690,65,0,0" VerticalAlignment="Top" Width="56" Click="Button_Click"/>
 
     </Grid>
 </Window>

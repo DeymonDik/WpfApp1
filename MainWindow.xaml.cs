@@ -135,5 +135,10 @@ namespace WpfApp1
                 listBox1.Items.Refresh();
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Save Our Souls","Call For Help");
+        }
     }
 }
