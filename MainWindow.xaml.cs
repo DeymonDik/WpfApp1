@@ -46,7 +46,7 @@ namespace WpfApp1
                 }
                 else
                 {
-                    MessageBox.Show("Ошибка (mistake) kog1d34a (when) при получении данных");
+                    MessageBox.Show("Ошибка (mistake) kog1d34a (when) при получеgrrgнии данных");
                     return null;
                 }
             }
